@@ -1,0 +1,10 @@
+/* FadeIn.css */
+
+.fade-in-container {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}

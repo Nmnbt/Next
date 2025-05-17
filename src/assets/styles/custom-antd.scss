@@ -1,0 +1,40 @@
+.ant-anchor {
+  font-family: font, sans-serif;
+  padding: 30px;
+}
+
+.ant-anchor-link {
+  font-family: font, sans-serif;
+}
+
+@media (max-width: 767px) {
+  .ant-anchor {
+    display: none;
+  }
+}
+
+.ant-divider {
+  box-shadow: 0px 0 0.001px rgba(0, 0, 0, 0.1);
+}
+
+.ant-divider::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.ant-collapse-content-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-list-price {
+  position: relative;
+  font-weight: 500;
+  top: -30px;
+  left: -10px;
+  opacity: 0.5;
+
+}

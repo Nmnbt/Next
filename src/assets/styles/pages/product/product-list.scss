@@ -1,0 +1,40 @@
+.sw-product-list {
+  background-color: $gray-color;
+  padding: 50px;
+
+  .product-container {
+    color: var(--gray-700, #464646);
+    background-color: #F8F8F8;
+    text-align: justify;
+
+    button {
+      background-color: #1A1035 !important;
+      color: white;
+    }
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .sw-product-list {
+    padding: 10px;
+    .product-container {
+      box-shadow: none;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    h3{
+      font-size: 18px;
+    }
+  }
+}

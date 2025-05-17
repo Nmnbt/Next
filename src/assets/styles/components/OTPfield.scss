@@ -1,0 +1,17 @@
+.OTP-field-box {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  .OTP-field-input {
+    display: flex;
+    align-items: center;
+    padding-left: 1px;
+    text-align: center;
+    font-size: 36px !important;
+    height: 60px !important;
+    width: 60px !important;
+    // caret-color: transparent;
+  }
+}

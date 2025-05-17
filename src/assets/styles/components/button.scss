@@ -1,0 +1,16 @@
+.sw-menu-button {
+  font-size: 14px !important;
+  font-weight: bold;
+  color: $title-color;
+  transition: all ease-in-out 0.3s;
+  margin-left: 10px;
+}
+
+.sw-menu-button:hover {
+  color: lighten($color: $title-color, $amount: 20) !important;
+}
+
+.sw-button {
+  font-size: 12px !important;
+  font-weight: bold;
+}

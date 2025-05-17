@@ -1,0 +1,63 @@
+.sw-header {
+  justify-content: space-between;
+  top: 0;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  padding: 30px 2% 20px 2%;
+  z-index: 100000;
+}
+
+.sw-header-secondary {
+  background-color: $secondary-color;
+
+  .sw-header-menus {
+    button {
+      color: white;
+    }
+  }
+}
+
+.sw-logo {
+  cursor: pointer;
+
+  img {
+    width: 140px;
+  }
+}
+
+.sw-header-auth {
+  button {
+    margin-left: 10px;
+    font-size: 16px;
+    height: auto;
+  }
+
+  .ant-btn-default {
+    color: $primary-color;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sw-header-menus {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 1rem;
+    background: $secondary-color;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    margin-right: 20%;
+  }
+
+  .sw-header-menus.open {
+    display: flex;
+  }
+
+  .sw-burger {
+    display: block;
+  }
+}

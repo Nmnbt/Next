@@ -1,0 +1,41 @@
+.sw-pricing-space-between {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+;
+
+.sw-pricing-selected-card {
+  transform: scale(1.05);
+  border-color: $primary-color;
+  box-shadow: 0 4px 8px rgba(0, 95, 108, 0.2) !important;
+}
+
+;
+
+.sw-pricing-icon {
+  color: $primary-color;
+  margin-right: 10px;
+}
+
+;
+
+.sw-pricing-card {
+  transition: transform 0.2s;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+;
+
+.sw-pricing-card-title {
+  font-weight: bold;
+  float: right;
+  margin-right: 20px;
+}
+
+;

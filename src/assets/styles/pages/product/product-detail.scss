@@ -1,0 +1,36 @@
+.sw-product-list {
+  background-color: $gray-color;
+  padding: 50px;
+
+  .product-container {
+    color: var(--gray-700, #464646);
+    background-color: #F8F8F8;
+    text-align: justify;
+    padding: 40px;
+
+    button {
+      background-color: #1A1035 !important;
+      color: white;
+    }
+  }
+  h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+  }
+}
+@media (max-width:1200px){
+  .product-container .green-border {
+      display:none;
+  }
+}
+
+@media (max-width:500px){
+  .sw-product-list{
+    padding: 0px;
+    .product-container{
+      padding: 10px;
+    }
+  }
+}
